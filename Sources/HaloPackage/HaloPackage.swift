@@ -1,6 +1,7 @@
 public struct HaloPackage {
     public private(set) var text = "Hello, World!"
 
-    public init() {
+    public init(greeting: String) {
+        print(greeting)
     }
 }
