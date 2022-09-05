@@ -12,12 +12,13 @@ import Foundation
   
 // UIView + Extensions
 extension UIView {
-   func setBorder(color: UIColor?, width: CGFloat) {
+   public func setBorder(color: UIColor?, width: CGFloat) {
        borderColor = color
        borderWidth = width
    }
 }
-extension UIView {
+
+public extension UIView {
    var cornerRadius: CGFloat {
        get {
            return layer.cornerRadius
