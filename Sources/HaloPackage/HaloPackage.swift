@@ -3,5 +3,6 @@ public struct HaloPackage {
 
     public init(greeting: String) {
         print(greeting)
+        self.text = greeting
     }
 }
